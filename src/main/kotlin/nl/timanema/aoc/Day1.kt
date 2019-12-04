@@ -108,7 +108,7 @@ fun helper(mass: Int): Int {
     return mass / 3 - 2
 }
 
-fun day1(set: Set<Int>): Int {
+private fun day1(set: Set<Int>): Int {
     var cnt = 0
 
     for (mass in set) {
@@ -118,7 +118,7 @@ fun day1(set: Set<Int>): Int {
     return cnt
 }
 
-fun day2(set: Set<Int>): Int {
+private fun day2(set: Set<Int>): Int {
     var cnt = 0
 
     for (mass in set) {
