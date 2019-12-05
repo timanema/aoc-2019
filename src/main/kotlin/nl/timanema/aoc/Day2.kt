@@ -20,8 +20,8 @@ private fun day2(target: Int): Pair<Int, Int> {
 }
 
 fun main() {
-    println("Day 1: " + day1(12, 2)[0])
+    println("Day 1: " + day1(12, 2)[0]) // 5110675
 
     val result = day2(19690720);
-    println("Day 2: " + (result.first * 100 + result.second))
+    println("Day 2: " + (result.first * 100 + result.second)) // 4847
 }
